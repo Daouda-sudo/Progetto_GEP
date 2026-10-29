@@ -49,6 +49,17 @@ L'app copre l'intero ciclo musicale: dalla nascita della band e le prove, fino a
 Band → Prove → Ingaggio → Evento → Biglietti
 ```
 
+## Attori
+
+| Attore | Tipo | Descrizione |
+|--------|------|-------------|
+| Visitatore | Primario | Persona non registrata che può consultare il feed degli eventi pubblici della propria zona. |
+| Musicista | Primario | Utente registrato con account "Musicista": usa la sezione di allenamento con IA, crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio e pubblica eventi autonomi. |
+| Cliente | Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti. |
+| Sistema automatizzato | Di sistema | Esegue le operazioni automatiche, come il controllo a 7 giorni dall'evento, la cancellazione sotto soglia, le notifiche e l'avvio dei rimborsi. |
+| Amministratore | Secondario | Gestisce la piattaforma, il controllo degli accessi e la moderazione di utenti e contenuti. |
+| Provider di pagamento (es. Stripe) | Esterno | Servizio esterno certificato PCI-DSS che gestisce pagamenti e rimborsi. |
+
 ## Tipi di account
 
 | Funzionalità                           | Musicista | Cliente |
