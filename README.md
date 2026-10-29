@@ -222,4 +222,4 @@ Band → Prove → Ingaggio → Evento → Biglietti
 
 ##Diagramma Use Case
 
-![BandMeet Use Case Diagram](./images/DiagrammaUseCase.png)
+![BandMeet Use Case Diagram](./Images/DiagrammaUseCase.png)
