@@ -1,4 +1,4 @@
-# Dalle prove al palco
+# BandMeet
 
 ## Dalle prove al palco, tutto in un'unica piattaforma.
 
