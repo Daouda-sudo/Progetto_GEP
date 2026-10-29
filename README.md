@@ -220,6 +220,3 @@ Band → Prove → Ingaggio → Evento → Biglietti
 | RD-8 | Band | Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte. |
 | RD-9 | Minori | Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista). |
 
-## Licenza
-
-Da definire.
