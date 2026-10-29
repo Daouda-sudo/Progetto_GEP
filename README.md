@@ -219,7 +219,3 @@ Band → Prove → Ingaggio → Evento → Biglietti
 | RD-7 | Evento autonomo con soglia | L'artista fissa soglia minima e prezzo; a 7 giorni dall'inizio, se i biglietti venduti sono sotto soglia, l'evento viene cancellato. L'artista è avvisato della regola prima di pubblicare e la soglia non è modificabile dopo la pubblicazione. |
 | RD-8 | Band | Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte. |
 | RD-9 | Minori | Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista). |
-
-##Diagramma Use Case
-
-![BandMeet Use Case Diagram](./Images/DiagrammaUseCase.png)
