@@ -4,11 +4,11 @@
 
 ## Descrizione
 
-App che unisce l'Intelligenza Artificiale alla gestione della musica dal vivo, divisa in due tipi di account: "Musicista" e "Cliente". Per i musicisti, l'app offre una sezione di allenamento con un'IA che divide automaticamente qualsiasi brano nei singoli strumenti e voce, permettendo a ogni membro della band di isolare o silenziare la propria parte per studiarla al meglio. Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. I clienti possono navigare tra i profili dei musicisti per contattarli e ingaggiarli. Una volta trovato un accordo, l'evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. I musicisti possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall'inizio non viene raggiunta una soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata. L'app copre così l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco e alla vendita dei biglietti.
+App che unisce l'Intelligenza Artificiale alla gestione della musica dal vivo, divisa in due tipi di account: "Musicista" e "Cliente". Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. I clienti possono navigare tra i profili dei musicisti (o band) per contattarli e ingaggiarli. Una volta trovato un accordo, l'evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. I musicisti o band possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall'inizio non viene raggiunta una soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata. L'app copre così l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco e alla vendita dei biglietti.
 
 ### Per i musicisti
 
-- **Allenamento con IA**: una sezione che divide automaticamente qualsiasi brano nei singoli strumenti e voce, permettendo a ogni membro della band di isolare o silenziare la propria parte per studiarla al meglio.
+
 - **Ricerca di membri**: la piattaforma permette di cercare altri musicisti per completare o formare la propria band.
 - **Vetrina pubblica**: ogni artista può avere un profilo pubblico in cui mostrarsi.
 - **Eventi autonomi**: i musicisti possono creare un proprio evento pubblico senza accordi preventivi. Se a una settimana dall'inizio non viene raggiunta la soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata.
@@ -54,11 +54,9 @@ Band → Prove → Ingaggio → Evento → Biglietti
 | Attore | Tipo | Descrizione |
 |--------|------|-------------|
 | Visitatore | Primario | Persona non registrata che può consultare il feed degli eventi pubblici della propria zona. |
-| Musicista | Primario | Utente registrato con account "Musicista": usa la sezione di allenamento con IA, crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio e pubblica eventi autonomi. |
+| Musicista | Primario | Utente registrato con account "Musicista": crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio e pubblica eventi autonomi. |
 | Cliente | Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti. |
-| Sistema automatizzato | Di sistema | Esegue le operazioni automatiche, come il controllo a 7 giorni dall'evento, la cancellazione sotto soglia, le notifiche e l'avvio dei rimborsi. |
-| Amministratore | Secondario | Gestisce la piattaforma, il controllo degli accessi e la moderazione di utenti e contenuti. |
-| Provider di pagamento (es. Stripe) | Esterno | Servizio esterno certificato PCI-DSS che gestisce pagamenti e rimborsi. |
+
 
 ## Tipi di account
 
@@ -108,30 +106,6 @@ Band → Prove → Ingaggio → Evento → Biglietti
 **voglio** cercare altri artisti filtrando per strumento o genere,
 **in modo da** trovare i membri mancanti per completare o formare la mia band.
 
-### Epica 2: Sezione Allenamento (IA)
-
-| ID | Requisito | Origine |
-|----|-----------|---------|
-| RF-2.1 | Il musicista deve poter caricare un file audio dal proprio dispositivo nella sezione allenamento. | US2.1 |
-| RF-2.2 | Il sistema deve separare tramite IA il brano in tracce isolate e indipendenti (voce, chitarra, batteria, basso, ecc.). | US2.1 |
-| RF-2.3 | Il sistema deve mostrare lo stato di avanzamento dell'elaborazione e notificare il completamento o eventuali errori. | US2.1 |
-| RF-2.4 | Il sistema deve offrire un player multitraccia che riproduce le tracce separate in modo sincronizzato. | US2.2 |
-| RF-2.5 | Il musicista deve poter isolare (solo) o silenziare (mute) ogni singola traccia durante la riproduzione. | US2.2 |
-
-#### US2.1 – Separazione tracce audio tramite IA
-**Come** Musicista,
-**voglio** caricare un qualsiasi brano musicale nella sezione allenamento,
-**in modo da** far separare automaticamente dall'IA la voce e i singoli strumenti in tracce isolate.
-
-**Criteri di accettazione**
-- **Given** il musicista seleziona un file audio dal proprio dispositivo
-- **When** avvia l'elaborazione
-- **Then** l'IA genera tracce separate e indipendenti (es. Voce, Chitarra, Batteria, Basso)
-
-#### US2.2 – Mixer per lo studio (isolamento/mute)
-**Come** Musicista,
-**voglio** isolare (solo) o silenziare (mute) le singole tracce estratte dall'IA durante la riproduzione,
-**in modo da** studiare la mia parte o suonare sopra la base senza il mio strumento.
 
 ### Epica 3: Ingaggio e Organizzazione Eventi
 
