@@ -171,28 +171,27 @@ Band → Prove → Ingaggio → Evento → Biglietti
 
 | ID | Categoria | Descrizione |
 |----|-----------|-------------|
-| RNF-1 | Prestazioni | Le pagine principali si caricano in meno di 2 secondi; la separazione di un brano di 5 minuti richiede al massimo 2 minuti, in modo asincrono con notifica al termine. |
-| RNF-2 | Scalabilità | Il sistema regge almeno 10.000 utenti simultanei, compresi i picchi all'apertura della vendita biglietti; il modulo IA scala con code di job e worker on-demand. |
+| RNF-1 | Prestazioni | Le pagine principali si caricano in meno di 2 secondi. |
+| RNF-2 | Scalabilità | Il sistema regge almeno 10.000 utenti simultanei, compresi i picchi all'apertura della vendita biglietti. |
 | RNF-3 | Affidabilità | Disponibilità minima del 99,5% mensile, con backup giornalieri. Il job di cancellazione automatica degli eventi sotto soglia viene eseguito una sola volta per evento, con log e retry. |
 | RNF-4 | Integrità dei pagamenti | Nessun doppio addebito e nessun biglietto venduto oltre la capienza, anche con acquisti concorrenti. |
 | RNF-5 | Sicurezza | Comunicazioni cifrate (HTTPS), password con hashing robusto, controllo degli accessi per ruolo (Musicista / Cliente / Admin), protezione dalle vulnerabilità OWASP Top 10 e pagamenti tramite provider certificato PCI-DSS (es. Stripe). |
 | RNF-6 | Privacy (GDPR) | Consenso esplicito, diritto di accesso e cancellazione dei dati, geolocalizzazione solo con consenso; i dettagli degli eventi privati sono visibili solo alle parti coinvolte. |
 | RNF-7 | Usabilità e compatibilità | Interfaccia intuitiva (ingaggio di un musicista in al massimo 5 passaggi), responsive su iOS, Android e principali browser, in italiano e inglese. |
-| RNF-8 | Qualità audio e IA | Il player multitraccia mantiene le tracce sincronizzate (scarto < 20 ms) e applica mute/solo in modo quasi immediato; la separazione offre una qualità adeguata e mostra stato di avanzamento ed errori. |
+
 
 ## Requisiti di dominio
 
 | ID | Ambito | Descrizione |
 |----|--------|-------------|
-| RD-1 | Diritto d'autore | La separazione dei brani è consentita solo per uso personale/didattico; le tracce separate non possono essere condivise pubblicamente. |
-| RD-2 | SIAE | Per gli eventi pubblici la piattaforma ricorda all'organizzatore gli adempimenti SIAE (borderò e diritti). |
-| RD-3 | Biglietteria | I biglietti rispettano la normativa italiana (titolo di accesso, IVA, QR code univoco e non duplicabile) e non superano mai la capienza dichiarata. |
-| RD-4 | Rimborsi | In caso di cancellazione automatica dell'evento, tutti i partecipanti ricevono il rimborso integrale automatico. |
-| RD-5 | Account ed eventi | Esistono due tipi di account (Musicista, Cliente) e due tipi di evento: privato (visibile solo alle parti, senza biglietti) e pubblico (visibile agli utenti della zona, con biglietti). |
-| RD-6 | Ciclo di ingaggio | Richiesta → trattativa → accordo → pubblicazione: l'evento nasce solo dopo l'accettazione di entrambe le parti. |
-| RD-7 | Evento autonomo con soglia | L'artista fissa soglia minima e prezzo; a 7 giorni dall'inizio, se i biglietti venduti sono sotto soglia, l'evento viene cancellato. L'artista è avvisato della regola prima di pubblicare e la soglia non è modificabile dopo la pubblicazione. |
-| RD-8 | Band | Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte. |
-| RD-9 | Minori | Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista). |
+| RD-1 | SIAE | Per gli eventi pubblici la piattaforma ricorda all'organizzatore gli adempimenti SIAE (borderò e diritti). |
+| RD-2 | Biglietteria | I biglietti rispettano la normativa italiana (titolo di accesso, IVA, QR code univoco e non duplicabile) e non superano mai la capienza dichiarata. |
+| RD-3 | Rimborsi | In caso di cancellazione automatica dell'evento, tutti i partecipanti ricevono il rimborso integrale automatico. |
+| RD-4 | Account ed eventi | Esistono due tipi di account (Musicista, Cliente) e due tipi di evento: privato (visibile solo alle parti, senza biglietti) e pubblico (visibile agli utenti della zona, con biglietti). |
+| RD-5 | Ciclo di ingaggio | Richiesta → trattativa → accordo → pubblicazione: l'evento nasce solo dopo l'accettazione di entrambe le parti. |
+| RD-6 | Evento autonomo con soglia | L'artista fissa soglia minima e prezzo; a 7 giorni dall'inizio, se i biglietti venduti sono sotto soglia, l'evento viene cancellato. L'artista è avvisato della regola prima di pubblicare e la soglia non è modificabile dopo la pubblicazione. |
+| RD-7 | Band | Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte. |
+| RD-8 | Minori | Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista). |
 
 ## Diagramma Use Case
 
