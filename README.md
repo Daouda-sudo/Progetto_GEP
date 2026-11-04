@@ -1,10 +1,10 @@
 # BandMeet
 
-## Dalle prove al palco, tutto in un'unica piattaforma.
+## Trova la tua band, trova il tuo palco
 
 ## Descrizione
 
-App che unisce l'Intelligenza Artificiale alla gestione della musica dal vivo, divisa in due tipi di account: "Musicista" e "Cliente". Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. I clienti possono navigare tra i profili dei musicisti (o band) per contattarli e ingaggiarli. Una volta trovato un accordo, l'evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. I musicisti o band possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall'inizio non viene raggiunta una soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata. L'app copre così l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco e alla vendita dei biglietti.
+App per la gestione della musica dal vivo, divisa in due tipi di account: "Musicista" e "Organizzatore e/o Partecipante". Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. Anche le band hanno un proprio profilo pubblico e possono essere cercate dai clienti e dagli altri musicisti. I clienti possono navigare tra i profili dei musicisti e delle band per contattarli e ingaggiarli, oppure pubblicare una proposta d'evento visibile solo ai musicisti, che possono farsi avanti. Una volta trovato un accordo, l'evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. A un evento può esibirsi una band oppure un musicista singolo; quando nello stesso evento si esibiscono più musicisti o band, l'evento prende il nome di maxi-evento. I musicisti e le band possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall'inizio non viene raggiunta una soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata. L'app copre così l'intero ciclo musicale: dalla nascita della band fino al palco e alla vendita dei biglietti.
 
 ### Per i musicisti
 
@@ -29,7 +29,6 @@ L'app risolve questo problema riunendo tutto in un'unica piattaforma: allenament
 ## Target
 
 - Musicisti in cerca di altri musicisti
-- Musicisti che vogliono imparare canzoni
 - Persone in cerca di musicisti per eventi
 
 ## Competitor
@@ -53,16 +52,15 @@ Band → Prove → Ingaggio → Evento → Biglietti
 
 | Attore | Tipo | Descrizione |
 |--------|------|-------------|
-| Visitatore | Primario | Persona non registrata che può consultare il feed degli eventi pubblici della propria zona. |
+| Partecipante | Primario | Persona che può consultare il feed degli eventi pubblici della propria zona. |
 | Musicista | Primario | Utente registrato con account "Musicista": crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio e pubblica eventi autonomi. |
-| Cliente | Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti. |
+| Organizzatore| Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti. |
 
 
 ## Tipi di account
 
-| Funzionalità                           | Musicista | Cliente |
+| Funzionalità                           | Musicista | Organizzatore/Partecipante |
 |----------------------------------------|:---------:|:-------:|
-| Allenamento con IA (separazione brani) | Sì | No |
 | Ricerca e formazione della band        | Sì | No |
 | Vetrina pubblica                       | Sì | No |
 | Creazione di eventi autonomi           | Sì | No |
@@ -107,7 +105,7 @@ Band → Prove → Ingaggio → Evento → Biglietti
 **in modo da** trovare i membri mancanti per completare o formare la mia band.
 
 
-### Epica 3: Ingaggio e Organizzazione Eventi
+### Epica 2: Ingaggio e Organizzazione Eventi
 
 | ID | Requisito | Origine |
 |----|-----------|---------|
@@ -118,12 +116,12 @@ Band → Prove → Ingaggio → Evento → Biglietti
 | RF-3.5 | Il musicista deve poter pubblicare autonomamente un evento pubblico, senza ingaggio preventivo, indicando data, luogo, prezzo e soglia minima di partecipanti. | US3.3 |
 | RF-3.6 | Prima della pubblicazione di un evento autonomo, il sistema deve avvisare il musicista della regola di cancellazione automatica. | US3.3 |
 
-#### US3.1 – Contatto e ingaggio artisti
+#### US2.1 – Contatto e ingaggio artisti
 **Come** Cliente,
 **voglio** navigare tra le vetrine dei musicisti e contattarli direttamente,
 **in modo da** proporre un ingaggio e raggiungere un accordo per una serata.
 
-#### US3.2 – Pubblicazione evento privato o pubblico (concordato)
+#### US2.2 – Pubblicazione evento privato o pubblico (concordato)
 **Come** Cliente (o Musicista dopo l'accordo),
 **voglio** creare un evento specificando se è "Privato" o "Pubblico",
 **in modo da** gestire la visibilità del concerto (solo invitati o intera community locale).
@@ -131,21 +129,21 @@ Band → Prove → Ingaggio → Evento → Biglietti
 **Criteri di accettazione**
 - Se l'evento è "Privato", non deve apparire nei feed geografici visibili agli altri utenti
 
-#### US3.3 – Creazione autonoma di un evento pubblico
+#### US2.3 – Creazione autonoma di un evento pubblico
 **Come** Musicista,
 **voglio** pubblicare un evento pubblico autonomamente senza un ingaggio preventivo,
 **in modo da** pianificare i miei concerti direttamente nei locali o nelle piazze.
 
-### Epica 4: Distribuzione, Biglietteria e Automazioni
+### Epica 3: Distribuzione, Biglietteria e Automazioni
 
 | ID | Requisito | Origine |
 |----|-----------|---------|
-| RF-4.1 | Il sistema deve mostrare una lista o una mappa degli eventi pubblici filtrata in base alla posizione dell'utente. | US4.1 |
-| RF-4.2 | Il Cliente deve poter acquistare i biglietti di un evento pubblico direttamente dall'app. | US4.2 |
-| RF-4.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR). | US4.2 |
-| RF-4.4 | Il sistema deve controllare automaticamente i biglietti venduti degli eventi auto-organizzati a 7 giorni dall'inizio. | US4.3 |
-| RF-4.5 | Se i biglietti venduti sono inferiori alla soglia minima, il sistema deve cancellare l'evento e notificare l'artista e chi aveva prenotato. | US4.3 |
-| RF-4.6 | In caso di cancellazione automatica, il sistema deve avviare il rimborso a tutti i partecipanti. | US4.3 |
+| RF-3.1 | Il sistema deve mostrare una lista o una mappa degli eventi pubblici filtrata in base alla posizione dell'utente. | US4.1 |
+| RF-3.2 | Il Cliente deve poter acquistare i biglietti di un evento pubblico direttamente dall'app. | US4.2 |
+| RF-3.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR). | US4.2 |
+| RF-3.4 | Il sistema deve controllare automaticamente i biglietti venduti degli eventi auto-organizzati a 7 giorni dall'inizio. | US4.3 |
+| RF-3.5 | Se i biglietti venduti sono inferiori alla soglia minima, il sistema deve cancellare l'evento e notificare l'artista e chi aveva prenotato. | US4.3 |
+| RF-3.6 | In caso di cancellazione automatica, il sistema deve avviare il rimborso a tutti i partecipanti. | US4.3 |
 
 #### US4.1 – Feed eventi su base locale
 **Come** Visitatore della piattaforma,
