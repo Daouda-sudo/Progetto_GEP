@@ -110,7 +110,7 @@ Band → Ingaggio → Evento → Biglietti
 | ID | Requisito | Origine |
 |----|-----------|---------|
 | RF-2.1 | Il Cliente deve poter navigare tra le vetrine dei musicisti e contattarli direttamente. | US2.1 |
-| RF-2.2 | Il Cliente deve poter inviare una proposta di ingaggio, e le parti devono poter trattare fino all'accettazione dell'accordo. | US3.1 |
+| RF-2.2 | Il Cliente deve poter inviare una proposta di ingaggio, e le parti devono poter trattare fino all'accettazione dell'accordo. | US2.1 |
 | RF-2.3 | Dopo l'accordo, il sistema deve permettere di creare un evento specificando se è Privato o Pubblico. | US2.2 |
 | RF-2.4 | Gli eventi Privati non devono comparire nei feed geografici visibili agli altri utenti. | US2.2 |
 | RF-2.5 | Il musicista deve poter pubblicare autonomamente un evento pubblico, senza ingaggio preventivo, indicando data, luogo, prezzo e soglia minima di partecipanti. | US2.3 |
