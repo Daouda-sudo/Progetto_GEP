@@ -30,6 +30,7 @@ L'app risolve questo problema riunendo tutto in un'unica piattaforma: allenament
 
 - Musicisti in cerca di altri musicisti
 - Persone in cerca di musicisti per eventi
+- Persone in cerca di eventi musicali nelle vicinanze
 
 ## Competitor
 
