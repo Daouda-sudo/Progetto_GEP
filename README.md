@@ -45,7 +45,7 @@ L'app risolve questo problema riunendo tutto in un'unica piattaforma: allenament
 L'app copre l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco e alla vendita dei biglietti.
 
 ```
-Band → Prove → Ingaggio → Evento → Biglietti
+Band → Ingaggio → Evento → Biglietti
 ```
 
 ## Attori
@@ -109,12 +109,12 @@ Band → Prove → Ingaggio → Evento → Biglietti
 
 | ID | Requisito | Origine |
 |----|-----------|---------|
-| RF-3.1 | Il Cliente deve poter navigare tra le vetrine dei musicisti e contattarli direttamente. | US3.1 |
-| RF-3.2 | Il Cliente deve poter inviare una proposta di ingaggio, e le parti devono poter trattare fino all'accettazione dell'accordo. | US3.1 |
-| RF-3.3 | Dopo l'accordo, il sistema deve permettere di creare un evento specificando se è Privato o Pubblico. | US3.2 |
-| RF-3.4 | Gli eventi Privati non devono comparire nei feed geografici visibili agli altri utenti. | US3.2 |
-| RF-3.5 | Il musicista deve poter pubblicare autonomamente un evento pubblico, senza ingaggio preventivo, indicando data, luogo, prezzo e soglia minima di partecipanti. | US3.3 |
-| RF-3.6 | Prima della pubblicazione di un evento autonomo, il sistema deve avvisare il musicista della regola di cancellazione automatica. | US3.3 |
+| RF-2.1 | Il Cliente deve poter navigare tra le vetrine dei musicisti e contattarli direttamente. | US2.1 |
+| RF-2.2 | Il Cliente deve poter inviare una proposta di ingaggio, e le parti devono poter trattare fino all'accettazione dell'accordo. | US3.1 |
+| RF-2.3 | Dopo l'accordo, il sistema deve permettere di creare un evento specificando se è Privato o Pubblico. | US2.2 |
+| RF-2.4 | Gli eventi Privati non devono comparire nei feed geografici visibili agli altri utenti. | US2.2 |
+| RF-2.5 | Il musicista deve poter pubblicare autonomamente un evento pubblico, senza ingaggio preventivo, indicando data, luogo, prezzo e soglia minima di partecipanti. | US2.3 |
+| RF-2.6 | Prima della pubblicazione di un evento autonomo, il sistema deve avvisare il musicista della regola di cancellazione automatica. | US2.3 |
 
 #### US2.1 – Contatto e ingaggio artisti
 **Come** Cliente,
@@ -138,24 +138,24 @@ Band → Prove → Ingaggio → Evento → Biglietti
 
 | ID | Requisito | Origine |
 |----|-----------|---------|
-| RF-3.1 | Il sistema deve mostrare una lista o una mappa degli eventi pubblici filtrata in base alla posizione dell'utente. | US4.1 |
-| RF-3.2 | Il Cliente deve poter acquistare i biglietti di un evento pubblico direttamente dall'app. | US4.2 |
-| RF-3.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR). | US4.2 |
-| RF-3.4 | Il sistema deve controllare automaticamente i biglietti venduti degli eventi auto-organizzati a 7 giorni dall'inizio. | US4.3 |
-| RF-3.5 | Se i biglietti venduti sono inferiori alla soglia minima, il sistema deve cancellare l'evento e notificare l'artista e chi aveva prenotato. | US4.3 |
-| RF-3.6 | In caso di cancellazione automatica, il sistema deve avviare il rimborso a tutti i partecipanti. | US4.3 |
+| RF-3.1 | Il sistema deve mostrare una lista o una mappa degli eventi pubblici filtrata in base alla posizione dell'utente. | US3.1 |
+| RF-3.2 | Il Cliente deve poter acquistare i biglietti di un evento pubblico direttamente dall'app. | US3.2 |
+| RF-3.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR). | US3.2 |
+| RF-3.4 | Il sistema deve controllare automaticamente i biglietti venduti degli eventi auto-organizzati a 7 giorni dall'inizio. | US3.3 |
+| RF-3.5 | Se i biglietti venduti sono inferiori alla soglia minima, il sistema deve cancellare l'evento e notificare l'artista e chi aveva prenotato. | US3.3 |
+| RF-3.6 | In caso di cancellazione automatica, il sistema deve avviare il rimborso a tutti i partecipanti. | US3.3 |
 
-#### US4.1 – Feed eventi su base locale
+#### US3.1 – Feed eventi su base locale
 **Come** Visitatore della piattaforma,
 **voglio** visualizzare una lista o mappa degli eventi pubblici filtrata in base alla mia posizione,
 **in modo da** scoprire i concerti attivi nella mia zona.
 
-#### US4.2 – Acquisto biglietti
+#### US3.2 – Acquisto biglietti
 **Come** Cliente,
 **voglio** acquistare i biglietti per un evento pubblico direttamente dall'app,
 **in modo da** assicurarmi l'ingresso alla serata e ricevere il titolo di accesso digitale.
 
-#### US4.3 – Cancellazione automatica per mancato raggiungimento soglia
+#### US3.3 – Cancellazione automatica per mancato raggiungimento soglia
 **Come** Sistema automatizzato,
 **voglio** monitorare le prenotazioni degli eventi auto-organizzati a 7 giorni dall'inizio,
 **in modo da** cancellare automaticamente la serata se i partecipanti sono inferiori alla soglia minima impostata dal musicista.
