@@ -22,9 +22,9 @@ App per la gestione della musica dal vivo, divisa in due tipi di account: "Music
 
 ## Il problema che risolve
 
-Chi fa musica dal vivo oggi usa strumenti separati e scollegati per ogni fase: studiare i brani, trovare i membri della band, cercare ingaggi, organizzare l'evento e vendere i biglietti. Chi cerca musica per un evento, invece, non ha un posto dove trovare e ingaggiare i musicisti in modo semplice.
+Chi fa musica dal vivo oggi usa strumenti separati e scollegati per ogni fase: trovare i membri della band, cercare ingaggi, organizzare l'evento e vendere i biglietti. Chi cerca musica per un evento, invece, non ha un posto dove trovare e ingaggiare i musicisti in modo semplice.
 
-L'app risolve questo problema riunendo tutto in un'unica piattaforma: allenamento con IA, ricerca di band e musicisti, ingaggi, eventi e biglietteria, con in più una protezione per l'artista (la soglia minima di partecipanti) che evita di fare serate in perdita.
+L'app risolve questo problema riunendo tutto in un'unica piattaforma: ricerca di band e musicisti, ingaggi, eventi e biglietteria, con in più una protezione per l'artista (la soglia minima di partecipanti) che evita di fare serate in perdita.
 
 ## Target
 
