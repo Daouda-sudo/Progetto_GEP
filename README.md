@@ -33,9 +33,8 @@ App per la gestione della musica dal vivo, divisa in due tipi di account: “Mus
 
 ## Il problema che risolve
 
-Chi fa musica dal vivo oggi usa strumenti separati e scollegati per ogni fase: trovare i membri della band, cercare ingaggi, organizzare l'evento e vendere i biglietti. Chi cerca musica per un evento, invece, non ha un posto dove trovare e ingaggiare i musicisti in modo semplice.
 
-L'app risolve questo problema riunendo tutto in un'unica piattaforma: ricerca di band e musicisti, ingaggi, eventi e biglietteria, con in più una protezione per l'artista (la soglia minima di partecipanti) che evita di fare serate in perdita.
+Oggi il ciclo musicale dal vivo è frammentato: band cercate sui social, ingaggi per contatti sparsi, eventi su una piattaforma e biglietti su un'altra. Chi cerca musica per un evento non ha un posto unico dove trovare e ingaggiare artisti in modo semplice. L'app unisce tutto ricerca di band e musicisti, ingaggi, eventi e biglietteria e protegge l'artista con la soglia minima di partecipanti, che evita di suonare in perdita.
 
 ## Target
 
@@ -45,12 +44,11 @@ L'app risolve questo problema riunendo tutto in un'unica piattaforma: ricerca di
 
 ## Competitor
 
-- Moises AI
-- BandLab
 - Vampr
-- iKonX
-- Giggster
-- Eventbrite
+- GigSalad
+- Bandsintown
+- BandMix
+
 
 ## Il ciclo completo
 
