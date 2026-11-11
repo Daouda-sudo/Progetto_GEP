@@ -4,7 +4,7 @@
 
 ## Descrizione
 
-App per la gestione della musica dal vivo, divisa in due tipi di account: “Musicista” e “Organizzatore e/o Partecipante”. Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. Nella vetrina è possibile incorporare i link esterni a Spotify, YouTube, Instagram e SoundCloud, così da ascoltare e guardare i contenuti dell’artista direttamente dal profilo. Il sistema di matching intelligente suggerisce ai musicisti i profili più adatti a completare una band, in base a genere, strumento mancante, zona e disponibilità. Prima di entrare ufficialmente in una band, i musicisti possono usare una sezione dedicata alle prove di compatibilità, dove inserire audio e video demo, inviare una “jam request” o ricevere un invito a una prova di prova. Anche le band hanno un proprio profilo pubblico e possono essere cercate dai clienti e dagli altri musicisti. I musicisti e le band possono essere seguiti dagli utenti, che ricevono una notifica quando l’artista pubblica una data nella loro zona. Ogni profilo può ottenere un badge di verifica, assegnato ai musicisti con esibizioni reali concluse sulla piattaforma, in modo che le recensioni siano sempre legate a eventi effettivamente avvenuti. I clienti possono navigare tra i profili dei musicisti e delle band per contattarli e ingaggiarli, oppure pubblicare una proposta d’evento visibile solo ai musicisti, che possono farsi avanti. Le trattative avvengono tramite offerte e controfferte in una chat dedicata, che si conclude con un “accordo” formale all’interno dell’app. L’accordo prevede una politica di cancellazione chiara, con penali progressive e la possibilità di sostituzione automatica con un artista simile. Al termine dell’evento le recensioni sono bidirezionali: i clienti valutano gli artisti e gli artisti valutano gli organizzatori. Quando un musicista accetta un ingaggio, l’app gestisce i conflitti e lo avvisa se è già impegnato in quella data o se ha un altro evento troppo vicino. Una volta trovato un accordo, l’evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. Gli eventi pubblici sono consultabili su una mappa degli eventi vicino a te, con filtri per genere, prezzo, data, “stasera” e “questo weekend”. L’accesso agli eventi con biglietto è controllato tramite QR code, con modalità offline per il gestore. A un evento può esibirsi una band oppure un musicista singolo; quando nello stesso evento si esibiscono più musicisti o band, l’evento prende il nome di maxi-evento. I musicisti e le band possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall’inizio non viene raggiunta una soglia minima di partecipanti impostata dall’artista, il sistema cancella automaticamente la serata. Per aiutare a raggiungere la soglia, gli utenti possono usare la funzione “Serata a rischio”: prenotano un posto senza pagare subito e confermano l’acquisto solo quando la soglia è vicina. L’app copre così l’intero ciclo musicale: dalla nascita della band fino al palco e alla vendita dei biglietti.
+App per la gestione della musica dal vivo, divisa in due tipi di account: "Musicista" e "Organizzatore e/o Partecipante". Inoltre, la piattaforma permette agli artisti sia di cercare altri membri per completare o formare la propria band, sia di avere una vetrina pubblica. Nella vetrina è possibile incorporare i link esterni a Spotify, YouTube, Instagram e SoundCloud, così da ascoltare e guardare i contenuti dell'artista direttamente dal profilo. Il sistema di matching intelligente suggerisce ai musicisti i profili più adatti a completare una band, in base a genere, strumento mancante, zona e disponibilità. Prima di entrare ufficialmente in una band, i musicisti possono usare una sezione dedicata alle prove di compatibilità, dove inserire audio e video demo, inviare una "jam request" o ricevere un invito a una prova di prova. Anche le band hanno un proprio profilo pubblico e possono essere cercate dai clienti e dagli altri musicisti. I musicisti e le band possono essere seguiti dagli utenti, che ricevono una notifica quando l'artista pubblica una data nella loro zona. Ogni profilo può ottenere un badge di verifica, assegnato ai musicisti con esibizioni reali concluse sulla piattaforma, in modo che le recensioni siano sempre legate a eventi effettivamente avvenuti. I clienti possono navigare tra i profili dei musicisti e delle band per contattarli e ingaggiarli, oppure pubblicare una proposta d'evento visibile solo ai musicisti, che possono farsi avanti. Le trattative avvengono tramite offerte e controfferte in una chat dedicata, che si conclude con un "accordo" formale all'interno dell'app. L'accordo prevede una politica di cancellazione chiara, con penali progressive e la possibilità di sostituzione automatica con un artista simile. Al termine dell'evento le recensioni sono bidirezionali: i clienti valutano gli artisti e gli artisti valutano gli organizzatori. Quando un musicista accetta un ingaggio, l'app gestisce i conflitti e lo avvisa se è già impegnato in quella data o se ha un altro evento troppo vicino. Una volta trovato un accordo, l'evento può essere pubblicato come privato (compleanni, matrimoni) o pubblico (concerti in locali o piazze) visibile a tutti gli utenti della zona. Gli eventi pubblici sono consultabili su una mappa degli eventi vicino a te, con filtri per genere, prezzo, data, "stasera" e "questo weekend". L'accesso agli eventi con biglietto è controllato tramite QR code, con modalità offline per il gestore. A un evento può esibirsi una band oppure un musicista singolo; quando nello stesso evento si esibiscono più musicisti o band, l'evento prende il nome di maxi-evento. I musicisti e le band possono anche creare autonomamente un proprio evento pubblico senza accordi preventivi; in questo caso, se a una settimana dall'inizio non viene raggiunta una soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata. Per aiutare a raggiungere la soglia, gli utenti possono usare la funzione "Serata a rischio": prenotano un posto senza pagare subito e confermano l'acquisto solo quando la soglia è vicina. Inoltre, il musicista può decidere di trasmettere l'evento in streaming, gratuitamente o a pagamento: l'evento può essere seguito da remoto tramite un accesso digitale dedicato, distinto dal biglietto fisico. 
 
 ### Per i musicisti
 
@@ -16,6 +16,7 @@ App per la gestione della musica dal vivo, divisa in due tipi di account: “Mus
 - **Badge di verifica**: assegnato ai musicisti con esibizioni reali concluse sulla piattaforma.
 - **Gestione dei conflitti di calendario**: avviso se si accetta un ingaggio in una data già impegnata o troppo vicina a un altro evento.
 - **Eventi autonomi**: i musicisti e le band possono creare un proprio evento pubblico senza accordi preventivi. Se a una settimana dall'inizio non viene raggiunta la soglia minima di partecipanti impostata dall'artista, il sistema cancella automaticamente la serata.
+- **Streaming degli eventi**: il musicista può attivare per il proprio evento la modalità streaming, scegliendo se gratuito o a pagamento.
 
 ### Per i organizzatori/partecipanti
 
@@ -30,17 +31,18 @@ App per la gestione della musica dal vivo, divisa in due tipi di account: “Mus
   - **Privato** (compleanni, matrimoni)
   - **Pubblico** (concerti in locali o piazze), visibile a tutti gli utenti della zona
 - **Maxi-evento**: quando nello stesso evento si esibiscono più musicisti o band.
+- **Streaming**: acquisto di un biglietto streaming (o accesso gratuito previa registrazione) per seguire l'evento da remoto tramite un accesso digitale univoco.
 
 ## Il problema che risolve
 
-
-Oggi il ciclo musicale dal vivo è frammentato: band cercate sui social, ingaggi per contatti sparsi, eventi su una piattaforma e biglietti su un'altra. Chi cerca musica per un evento non ha un posto unico dove trovare e ingaggiare artisti in modo semplice. L'app unisce tutto ricerca di band e musicisti, ingaggi, eventi e biglietteria e protegge l'artista con la soglia minima di partecipanti, che evita di suonare in perdita.
+Oggi il ciclo musicale dal vivo è frammentato: band cercate sui social, ingaggi per contatti sparsi, eventi su una piattaforma e biglietti su un'altra. Chi cerca musica per un evento non ha un posto unico dove trovare e ingaggiare artisti in modo semplice. L'app unisce tutto ricerca di band e musicisti, ingaggi, eventi, biglietteria e streaming e protegge l'artista con la soglia minima di partecipanti, che evita di suonare in perdita.
 
 ## Target
 
 - Musicisti in cerca di altri musicisti
 - Persone in cerca di musicisti per eventi
 - Persone in cerca di eventi musicali nelle vicinanze
+- Persone che vogliono seguire eventi da remoto in streaming
 
 ## Competitor
 
@@ -49,26 +51,26 @@ Oggi il ciclo musicale dal vivo è frammentato: band cercate sui social, ingaggi
 - Bandsintown
 - BandMix
 
-
 ## Il ciclo completo
 
-L'app copre l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco e alla vendita dei biglietti.
+L'app copre l'intero ciclo musicale: dalla nascita della band e le prove, fino al palco, alla vendita dei biglietti e alla fruizione in streaming.
 
 ```
-Band → Prove di compatibilità → Ingaggio → Evento → Biglietti
+Band → Prove di compatibilità → Ingaggio → Evento → Biglietti → Streaming
 ```
 
 ## Attori
 
 | Attore | Tipo | Descrizione |
 |--------|------|-------------|
-| Partecipante | Primario | Persona che può consultare il feed degli eventi pubblici della propria zona. |
-| Musicista | Primario | Utente registrato con account "Musicista": crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio e pubblica eventi autonomi. |
-| Organizzatore| Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti. |
-| Gestore dell'evento | Secondario | Verifica l'accesso degli ospiti scansionando i QR code dei biglietti, anche in modalità offline. |
+| Partecipante | Primario | Persona che può consultare il feed degli eventi pubblici della propria zona e acquistare biglietti (fisici o streaming). |
+| Musicista | Primario | Utente registrato con account "Musicista": crea la vetrina pubblica, cerca membri per la band, riceve proposte di ingaggio, pubblica eventi autonomi e decide se trasmetterli in streaming. |
+| Organizzatore| Primario | Utente registrato con account "Cliente": naviga tra le vetrine dei musicisti, propone ingaggi, crea eventi privati o pubblici concordati e acquista i biglietti (fisici e streaming). |
+| Gestore dell'evento | Secondario | Verifica l'accesso degli ospiti scansionando i QR code dei biglietti, anche in modalità offline, e avvia/termina la diretta streaming. |
 | Sistema automatizzato | Di sistema | Esegue le operazioni automatiche: controllo a 7 giorni dall'evento, cancellazione sotto soglia, notifiche, rimborsi, suggerimenti di matching e sostituzione artista. |
 | Amministratore | Secondario | Gestisce la piattaforma, il controllo degli accessi, l'assegnazione dei badge di verifica e la moderazione di utenti e contenuti. |
 | Provider di pagamento (es. Stripe) | Esterno | Servizio esterno certificato PCI-DSS che gestisce pagamenti e rimborsi. |
+| Provider di streaming (es. Mux, Cloudflare Stream, Vimeo OTT) | Esterno | Servizio esterno specializzato che eroga le dirette streaming con qualità adattiva e latenza contenuta. |
 | Servizi esterni (Spotify, YouTube, Instagram, SoundCloud) | Esterno | Piattaforme da cui vengono incorporati i contenuti nelle vetrine degli artisti. |
 
 ## Tipi di account
@@ -88,6 +90,8 @@ Band → Prove di compatibilità → Ingaggio → Evento → Biglietti
 | Seguire musicisti e band               | Sì | Sì |
 | Recensioni bidirezionali               | Sì | Sì |
 | Acquisto biglietti e "Serata a rischio"| No | Sì |
+| Attivazione streaming evento           | Sì | No |
+| Acquisto biglietto streaming           | No | Sì |
 
 ## Requisiti funzionali
 
@@ -255,7 +259,7 @@ Band → Prove di compatibilità → Ingaggio → Evento → Biglietti
 |----|-----------|---------|
 | RF-3.1 | Il sistema deve mostrare una lista o una mappa degli eventi pubblici filtrata in base alla posizione dell'utente. | US3.1 |
 | RF-3.2 | Il Cliente deve poter acquistare i biglietti di un evento pubblico direttamente dall'app. | US3.2 |
-| RF-3.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR). | US3.2 |
+| RF-3.3 | Dopo l'acquisto, il sistema deve emettere un titolo di accesso digitale con codice univoco (QR), che identifica anche il biglietto streaming e ne impedisce il riuso. | US3.2 |
 | RF-3.4 | Il sistema deve controllare automaticamente i biglietti venduti degli eventi auto-organizzati a 7 giorni dall'inizio. | US3.3 |
 | RF-3.5 | Se i biglietti venduti sono inferiori alla soglia minima, il sistema deve cancellare l'evento e notificare l'artista e chi aveva prenotato. | US3.3 |
 | RF-3.6 | In caso di cancellazione automatica, il sistema deve avviare il rimborso a tutti i partecipanti. | US3.3 |
@@ -305,39 +309,118 @@ Band → Prove di compatibilità → Ingaggio → Evento → Biglietti
 **voglio** prenotare un posto senza pagare subito e confermare l'acquisto solo quando la soglia è vicina,
 **in modo da** non spendere soldi per una serata che potrebbe essere cancellata.
 
+### Epica 4: Streaming degli eventi
+
+| ID | Requisito | Origine |
+|----|-----------|---------|
+| RF-4.1 | Il Musicista/Band deve poter attivare, per un proprio evento, la modalità streaming, scegliendo se gratuito o a pagamento. | US4.1 |
+| RF-4.2 | Il sistema deve mostrare l'evento in streaming nella mappa/feed con un'indicazione visiva ("In streaming" / "Streaming gratuito" / "Streaming a pagamento"). | US4.1 |
+| RF-4.3 | Per gli eventi in streaming a pagamento, il Cliente deve poter acquistare un "biglietto streaming" separato dal biglietto fisico. | US4.2 |
+| RF-4.4 | Dopo l'acquisto (o per gli eventi gratuiti, dopo la registrazione), il sistema deve emettere un accesso digitale univoco (link/QR) alla diretta. | US4.2 |
+| RF-4.5 | L'accesso alla diretta deve essere verificato tramite lo stesso meccanismo di validazione dei biglietti (codice univoco, non riutilizzabile). | US4.2 |
+| RF-4.6 | Per i maxi-eventi in streaming, il sistema deve raccogliere il consenso di tutti gli artisti coinvolti prima della pubblicazione. | US4.3 |
+| RF-4.7 | Per gli eventi privati, lo streaming deve essere attivabile solo con consenso esplicito delle parti coinvolte (organizzatore + artisti). | US4.3 |
+| RF-4.8 | Il sistema deve ricordare all'organizzatore gli adempimenti SIAE specifici per la trasmissione in streaming. | US4.4 |
+| RF-4.9 | In caso di cancellazione automatica dell'evento sotto soglia, il sistema deve rimborsare anche i biglietti streaming. | US4.4 |
+| RF-4.10 | Il gestore dell'evento deve poter avviare/terminare la diretta e vedere il numero di spettatori connessi. | US4.5 |
+
+#### US4.1 – Attivazione dello streaming
+**Come** Musicista,
+**voglio** decidere se un mio evento è trasmesso in streaming, e se gratuito o a pagamento,
+**in modo da** raggiungere chi non può essere presente e generare un ricavo aggiuntivo.
+
+**Criteri di accettazione**
+- **Given** il musicista crea un evento (autonomo o concordato)
+- **When** attiva la modalità streaming e sceglie "gratuito" o "a pagamento" con relativo prezzo
+- **Then** l'evento mostra il badge streaming nel feed e nella mappa
+
+#### US4.2 – Acquisto e accesso allo streaming
+**Come** Cliente,
+**voglio** acquistare un biglietto streaming (o accedere gratuitamente previa registrazione) e ricevere un link univoco,
+**in modo da** guardare l'evento da remoto senza duplicazioni.
+
+**Criteri di accettazione**
+- **Given** un evento in streaming a pagamento
+- **When** il cliente completa l'acquisto
+- **Then** riceve un accesso digitale univoco valido solo per quella diretta e non riutilizzabile
+
+#### US4.3 – Consenso per maxi-eventi e privati
+**Come** Sistema,
+**voglio** raccogliere il consenso di tutti gli artisti (e delle parti, per i privati) prima di attivare lo streaming,
+**in modo da** rispettare diritti d'immagine e privacy.
+
+#### US4.4 – Adempimenti e rimborsi streaming
+**Come** Organizzatore,
+**voglio** essere informato sugli obblighi SIAE per lo streaming e avere rimborso automatico in caso di cancellazione,
+**in modo da** essere tutelato.
+
+#### US4.5 – Gestione diretta
+**Come** Gestore dell'evento,
+**voglio** avviare/terminare la diretta e monitorare gli spettatori,
+**in modo da** controllare la trasmissione.
+
 ## Requisiti non funzionali
 
 | ID | Categoria | Descrizione |
 |----|-----------|-------------|
 | RNF-1 | Prestazioni | Le pagine principali si caricano in meno di 2 secondi. |
-| RNF-2 | Scalabilità | Il sistema regge almeno 10.000 utenti simultanei, compresi i picchi all'apertura della vendita biglietti. |
+| RNF-2 | Scalabilità | Il sistema regge almeno 10.000 utenti simultanei, compresi i picchi all'apertura della vendita biglietti. Lo streaming è erogato tramite provider esterno specializzato e non grava direttamente sull'infrastruttura dell'app. |
 | RNF-3 | Affidabilità | Disponibilità minima del 99,5% mensile, con backup giornalieri. Il job di cancellazione automatica degli eventi sotto soglia viene eseguito una sola volta per evento, con log e retry. |
 | RNF-4 | Integrità dei pagamenti | Nessun doppio addebito e nessun biglietto venduto oltre la capienza, anche con acquisti concorrenti. |
 | RNF-5 | Sicurezza | Comunicazioni cifrate (HTTPS), password con hashing robusto, controllo degli accessi per ruolo (Musicista / Cliente / Admin), protezione dalle vulnerabilità OWASP Top 10 e pagamenti tramite provider certificato PCI-DSS (es. Stripe). |
 | RNF-6 | Privacy (GDPR) | Consenso esplicito, diritto di accesso e cancellazione dei dati, geolocalizzazione solo con consenso; i dettagli degli eventi privati sono visibili solo alle parti coinvolte. |
 | RNF-7 | Usabilità e compatibilità | Interfaccia intuitiva (ingaggio di un musicista in al massimo 5 passaggi), responsive su iOS, Android e principali browser, in italiano e inglese. |
-| RNF-8 | Funzionamento offline | La verifica dei QR code funziona senza connessione e sincronizza gli ingressi alla riconnessione, evitando che lo stesso biglietto sia accettato due volte. |
+| RNF-8 | Funzionamento offline | La verifica dei QR code funziona senza connessione e sincronizza gli ingressi alla riconnessione, evitando che lo stesso biglietto sia accettato due volte. La verifica offline riguarda solo i biglietti fisici; lo streaming richiede connessione. |
 | RNF-9 | Comunicazioni in tempo reale | Chat di trattativa e notifiche (nuove date, conflitti di calendario, cancellazioni) sono recapitate entro pochi secondi. |
 | RNF-10 | Affidabilità dei suggerimenti | Il matching intelligente restituisce i suggerimenti in meno di 3 secondi e spiega i criteri usati (genere, strumento, zona, disponibilità). |
+| RNF-11 | Streaming | La diretta è erogata tramite provider esterno certificato; latenza contenuta e qualità adattiva. L'accesso è protetto da token univoco non riutilizzabile. Nessuna registrazione automatica della diretta senza consenso esplicito degli artisti (GDPR). |
 
 ## Requisiti di dominio
 
-| ID | Ambito | Descrizione |
-|----|--------|-------------|
-| RD-1 | SIAE | Per gli eventi ppubblici la piattaforma ricorda all'organizzatore gli adempimenti SIAE (borderò e diritti). |
-| RD-2 | Biglietteria | I biglietti rispettano la normativa italiana (titolo di accesso, IVA, QR code univoco e non duplicabile) e non superano mai la capienza dichiarata. |
-| RD-3 | Rimborsi | In caso di cancellazione automatica dell'evento, tutti i partecipanti ricevono il rimborso integrale automatico. |
-| RD-4 | Account ed eventi | Esistono due tipi di account (Musicista, Cliente) e due tipi di evento: privato (visibile solo alle parti, senza biglietti) e pubblico (visibile agli utenti della zona, con biglietti). |
-| RD-5 | Ciclo di ingaggio | Richiesta → trattativa → accordo → pubblicazione: l'evento nasce solo dopo l'accettazione di entrambe le parti. |
-| RD-6 | Evento autonomo con soglia | L'artista fissa soglia minima e prezzo; a 7 giorni dall'inizio, se i biglietti venduti sono sotto soglia, l'evento viene cancellato. L'artista è avvisato della regola prima di pubblicare e la soglia non è modificabile dopo la pubblicazione. |
-| RD-7 | Band | Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte. |
-| RD-8 | Minori | Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista). |
-| RD-9 | Maxi-evento | Un evento con più musicisti o band è un maxi-evento; a un evento può esibirsi anche un solo musicista. |
-| RD-10 | Accordo e cancellazione | L'accordo formale fissa compenso e politica di cancellazione con penali progressive; in caso di rinuncia dell'artista il sistema propone un sostituto simile. |
-| RD-11 | Recensioni verificate | Le recensioni sono bidirezionali e ammesse solo per eventi conclusi sulla piattaforma; il badge di verifica spetta solo ai musicisti con esibizioni reali concluse. |
-| RD-12 | Proposte d'evento | Le proposte d'evento sono visibili solo ai musicisti e restano separate dagli eventi pubblicati. |
-| RD-13 | Serata a rischio | La prenotazione senza pagamento non garantisce l'ingresso: il biglietto è valido solo dopo la conferma dell'acquisto; la prenotazione non conta per la capienza oltre una scadenza definita. |
-| RD-14 | Contenuti esterni | I link a Spotify, YouTube, Instagram e SoundCloud sono solo incorporati: i contenuti restano di proprietà dei rispettivi autori e piattaforme. |
+### RD-1 – SIAE
+Per gli **eventi pubblici** e per le relative **trasmissioni in streaming**, la piattaforma ricorda all'organizzatore gli adempimenti SIAE (borderò, diritti e diritti di trasmissione).
+
+### RD-2 – Biglietteria
+I biglietti rispettano la normativa italiana (titolo di accesso, IVA, QR code univoco e non duplicabile) e non superano mai la capienza dichiarata.
+
+### RD-3 – Rimborsi
+In caso di cancellazione automatica dell'evento, tutti i partecipanti ricevono il rimborso integrale automatico, **inclusi i biglietti streaming**.
+
+### RD-4 – Account ed eventi
+Esistono due tipi di account (Musicista, Cliente) e due tipi di evento: privato (visibile solo alle parti, senza biglietti) e pubblico (visibile agli utenti della zona, con biglietti). **Un evento pubblico può avere due canali di accesso: fisico (biglietto) e remoto (streaming), con titoli distinti.**
+
+### RD-5 – Ciclo di ingaggio
+Richiesta → trattativa → accordo → pubblicazione: l'evento nasce solo dopo l'accettazione di entrambe le parti.
+
+### RD-6 – Evento autonomo con soglia
+L'artista fissa soglia minima e prezzo; a 7 giorni dall'inizio, se i biglietti venduti sono sotto soglia, l'evento viene cancellato. L'artista è avvisato della regola prima di pubblicare e la soglia non è modificabile dopo la pubblicazione.
+
+### RD-7 – Band
+Una band ha più membri con ruolo/strumento; un musicista può far parte di più band, con inviti, candidature e posizioni aperte.
+
+### RD-8 – Minori
+Età minima di registrazione secondo GDPR e legge italiana (con consenso dei genitori sotto la soglia prevista).
+
+### RD-9 – Maxi-evento
+Un evento con più musicisti o band è un maxi-evento; a un evento può esibirsi anche un solo musicista. **Per i maxi-eventi in streaming è richiesto il consenso di tutti gli artisti coinvolti.**
+
+### RD-10 – Accordo e cancellazione
+L'accordo formale fissa compenso e politica di cancellazione con penali progressive; in caso di rinuncia dell'artista il sistema propone un sostituto simile.
+
+### RD-11 – Recensioni verificate
+Le recensioni sono bidirezionali e ammesse solo per eventi conclusi sulla piattaforma; il badge di verifica spetta solo ai musicisti con esibizioni reali concluse.
+
+### RD-12 – Proposte d'evento
+Le proposte d'evento sono visibili solo ai musicisti e restano separate dagli eventi pubblicati.
+
+### RD-13 – Serata a rischio
+La prenotazione senza pagamento non garantisce l'ingresso: il biglietto è valido solo dopo la conferma dell'acquisto; la prenotazione non conta per la capienza oltre una scadenza definita. **La "Serata a rischio" vale solo per il posto fisico; lo streaming a pagamento segue le regole standard di acquisto.**
+
+### RD-14 – Contenuti esterni
+I link a Spotify, YouTube, Instagram e SoundCloud sono solo incorporati: i contenuti restano di proprietà dei rispettivi autori e piattaforme.
+
+### RD-15 – Streaming
+Un evento può essere trasmesso in streaming, **gratuitamente o a pagamento, su decisione del musicista/band**. Lo streaming è un **accesso remoto distinto dal biglietto fisico**, erogato tramite provider esterno e protetto da accesso digitale univoco e non riutilizzabile. Per gli eventi privati e i maxi-eventi è richiesto il **consenso esplicito delle parti coinvolte** (organizzatore e artisti) prima dell'attivazione. Nessuna registrazione automatica della diretta senza consenso (GDPR). In caso di cancellazione sotto soglia, **anche i biglietti streaming sono rimborsati**.
 
 
 
